@@ -20,7 +20,7 @@ jobs:
       working-directory: ./Texture2DDecoderNative/build/
       
     - name: Upload Texture2DDecoderNative
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v7
       with:
         name: Texture2DDecoderNative_Linux
         path: /home/runner/work/AssetRipper/AssetRipper/Texture2DDecoderNative/build/libTexture2DDecoderNative.so
@@ -39,7 +39,7 @@ jobs:
       working-directory: ./Texture2DDecoderNative/build/
 
     - name: Upload Texture2DDecoderNative
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v7
       with:
         name: Texture2DDecoderNative_Mac
         path: /Users/runner/work/AssetRipper/AssetRipper/Texture2DDecoderNative/build/libTexture2DDecoderNative.dylib
@@ -65,7 +65,7 @@ jobs:
       working-directory: ./Texture2DDecoderNative/
 
     - name: Upload Texture2DDecoderNative
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v7
       with:
         name: Texture2DDecoderNative_Windows
         path: D:\a\AssetRipper\AssetRipper\Texture2DDecoderNative\bin\x64\Release\Texture2DDecoderNative.dll

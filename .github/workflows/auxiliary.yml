@@ -34,7 +34,7 @@ jobs:
         ls -R ./Bins/AssetAnalyzer/Release
       
     - name: Upload AssetAnalyzer Windows x64
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v7
       with:
         name: AssetAnalyzer_win64
         path: D:\a\AssetRipper\AssetRipper\Bins\AssetAnalyzer\Release\*
@@ -48,7 +48,7 @@ jobs:
         ls -R ./Bins/UnitTester/Release
 
     - name: Upload UnitTester Windows x64
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v7
       with:
         name: UnitTester_win64
         path: D:\a\AssetRipper\AssetRipper\Bins\UnitTester\Release\*
